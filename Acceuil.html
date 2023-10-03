@@ -8,56 +8,70 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="navbar">
-          <img src="logo.png" class="logo">
-            <nav>
-              <ul>
-                  <li><a href="">HOME</a></li>
-                <li><a href="">REGION</a></li>
-                <li><a href="">ABOUT</a></li>
-              </ul>
-            </nav>
-        <img src="images/menu.png" class="menu-icon">
+<header>
+    <a href="#" class="logo">logo</a>
+    <div class="menu-btn"></div>
+
+    <div class="navbar">
+        <div class="navbar-items">
+            <a href="#">Accueil</a>
+            <a href="#">Tourisme</a>
+            <a href="#">Environnement</a>
+            <a href="#">Petite enfance</a>
+
         </div>
 
-        <div class ="row">
-            <div class="col">
-                <h1>Actualités</h1>
-                <div class="media-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                </div>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <h1>Actualités</h1>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+            <button type="button"> Explore</button>
+        </div>
+        <div class="col">
+            <div class="card card1">
+                <h5> Western Desert </h5>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
-                <button type="button"> Explore </button>
             </div>
-            <div class="col">
-                <div class="card card1">
-                    <h5> Western Desert </h5>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
-                </div>
-                <div class="card card2">
-                    <h5> AI Bagawat </h5>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
-                </div>
-                <div class="card card3">
-                    <h5> Pyramid of Giza </h5>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
-                </div>
-                <div class="card card4">
-                    <h5> Kalahari Desert </h5>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
-                </div>
+            <div class="card card2">
+                <h5> AI Bagawat </h5>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+            </div>
+            <div class="card card3">
+                <h5> Pyramid of Giza </h5>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+            </div>
+            <div class="card card4">
+                <h5> Kalahari Desert </h5>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
             </div>
         </div>
-
-
     </div>
 
 
+</div>
+<script type="text/javascript">
+
+    /* script pour le menu hamburger */
+    const menuBtn = document.querySelector(".menu-btn");
+    const navbar = document.querySelector(".navbar");
+    menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        navbar.classList.toggle("active");
+    });
+</script>
 </body>
+
 <footer>
     <div id="monfooter">
         <div id="Adresse">
@@ -73,5 +87,6 @@
             <p> Du lundi au jeudi de 09h à 12h et de 14h à 17h</p>
             <p>Le vendredi de 9h à 12h et de 14h à 16h30 </p>
         </div>
-    </div></footer>
+    </div>
+</footer>
 </html>
