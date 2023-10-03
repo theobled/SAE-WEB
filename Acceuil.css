@@ -99,6 +99,7 @@ nav ul li a {
     display:flex;
     height:88%;
     align-items: center;
+    padding-top: 15%;
 }
 .col{
     flex-basis:50%;
@@ -197,6 +198,7 @@ footer{
 	 margin-top:3%;
 	 margin-left:5%;
 	 flex:1;
+     padding-bottom:4%;
  }
  #Adresse h2{
     color:#fff;
