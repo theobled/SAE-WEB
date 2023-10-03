@@ -141,16 +141,16 @@ button{
 }
 
 .card1{
-    background-image:url(pic-1.png);
+    background-image:url(images/aqua.jpg);
 }
 .card2{
-    background-image:url(pic-2.png);
+    background-image:url(images/recupeau.png);
 }
 .card3{
-    background-image:url(pic-3.png);
+    background-image:url(images/loups.jpg);
 }
 .card4{
-    background-image:url(pic-4.png);
+    background-image:url(images/baignade.png);
 }
 
 .card:hover{
@@ -291,4 +291,3 @@ footer{
     }
 
 }
-
