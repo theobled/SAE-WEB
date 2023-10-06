@@ -9,7 +9,7 @@
 
 header {
     z-index: 999;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -18,10 +18,8 @@ header {
     align-items: center;
     padding: 15px 200px;
     transition: 0.5s ease;
-
+    
 }
-
-/*a remplacer par un logo*/
 
 header .logo {
     color: #fff;
@@ -30,10 +28,6 @@ header .logo {
     text-transform: uppercase;
     text-decoration: none;
 
-}
-
-header .navbar {
-    position: relative;
 }
 
 header .navbar .navbar-items a {
@@ -193,7 +187,6 @@ footer{
 
 .monfooter{
     display: flex; /* Utilisation de Flexbox pour aligner les divs horizontalement */
-    margin-bottom:7px;
     color :#fff;
 }
 .Adresse{
