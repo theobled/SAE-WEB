@@ -10,22 +10,19 @@
 </head>
 <body>
 
-<header>
-    <a href="#" class="logo">logo</a>
-    <div class="menu-btn"></div>
-
-    <div class="navbar">
-        <div class="navbar-items">
-            <a href="Acceuil.html">Accueil</a>
-            <a href="tourisme.html">Tourisme</a>
-            <a href="Envrionnement.html">Environnement</a>
-            <a href="#">Petite enfance</a>
-
+    <header class="sticky">
+        <a href="#" class="logo">logo</a>
+        <div class="menu-btn"></div>
+    
+        <div class="navbar">
+            <div class="navbar-items">
+                <a href="Acceuil.html">Accueil</a>
+                <a href="tourisme.html">Tourisme</a>
+                <a href="Envrionnement.html">Environnement</a>
+                <a href="#">Petite enfance</a>
+            </div>
         </div>
-
-    </div>
-
-</header>
+    </header>
 
 <section class="home">
 
@@ -112,6 +109,8 @@
     /* script pour le menu hamburger */
     const menuBtn = document.querySelector(".menu-btn");
     const navbar = document.querySelector(".navbar");
+    const header = document.querySelector("header");
+
     menuBtn.addEventListener("click", () => {
         menuBtn.classList.toggle("active");
         navbar.classList.toggle("active");
@@ -143,6 +142,18 @@
             sliderNav(i);
         })
     });
+
+   /* script pour le scroll de la navbar */
+
+   document.addEventListener("scroll",(e)=>{
+    let scroll=window.scrollY;
+    
+        if(scroll>20){
+            header.style.backgroundColor= "black";
+        }else
+            header.style.backgroundColor= "transparent"
+    });
+  
 </script>
 
 </body>
