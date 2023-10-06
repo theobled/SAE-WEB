@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     width : 100%;
     height: 100vh;
@@ -37,8 +40,48 @@ h2{
     margin-top: 2%;
 }
 
+
+
+#card-img-top{
+    border-radius:10%;
+    padding: 5%;
+}
+
+.card{
+    border-radius: 200px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/main.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+
+}
+
+.btn-primary{
+    border-radius: 5Opx;
+    width: 120px;
+    background-color: blue;
+}
+
+.btn-primary:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
 #rond{
     margin-top: 30%;
     margin-left: 60%;
 
 }
+
