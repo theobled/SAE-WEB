@@ -17,7 +17,7 @@ body{
 }
 
 
-
+/*début en tête*/
 
 header {
     z-index: 999;
@@ -33,6 +33,45 @@ header {
 
 }
 
+/*a remplacer par un logo*/
+
+header .logo {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+header .navbar {
+    position: relative;
+}
+
+header .navbar .navbar-items a {
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+header .navbar .navbar-items a:before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .navbar .navbar-items a:hover:before {
+    width: 100%;
+}
 
 section {
     position: relative;
@@ -267,4 +306,62 @@ section {
    
 
 
+}
+/*****************FOOTER*********************/
+
+footer{
+    background-color:black;
+}
+
+.monfooter{
+    display: flex; /* Utilisation de Flexbox pour aligner les divs horizontalement */
+    margin-bottom:7px;
+    color :#fff;
+}
+.Adresse{
+    text-align : center;
+    color: #fff;
+    margin-top:3%;
+    margin-left:20%;
+    flex:1;
+    padding-bottom:4%;
+}
+.Adresse h2{
+    margin-bottom:4%;
+    color: #fff;
+}
+.Horaires{
+    margin-top:3%;
+    flex:1;
+    text-align : center;
+    margin-right:20%;
+    color: #fff;
+}
+.Horaires h2{
+    margin-bottom:4%;
+    color: #fff;
+
+}
+
+.media-icons{
+    position:absolute;
+    display:flex;
+    margin-left:43%;
+    margin-top:12%;
+    transition:0.5s ease;
+}
+
+.media-icons a{
+    margin-left:30px;
+    color:#fff;
+    font-size:1.6em;
+    transition:0.3s ease;
+}
+
+.media-icons a:not(:last-child){
+    margin-bottom:20px;
+}
+
+.media-icons a:hover{
+    transform : scale(1.3);
 }
