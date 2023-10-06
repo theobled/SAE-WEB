@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Petit Enfance</title>
+    <link rel=" stylesheet" type=" text/CSS" href=" styletest.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=" stylesheet" type=" text/CSS" href=ttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+        <section>
+            <input type="checkbox" id="check">
+            <header>
+                <a href="#" class="logo">logo</a>
+                <div class="navbar">
+                    <div class="navbar-items">
+                        <a href="#">Accueil</a>
+                        <a href="#">Tourisme</a>
+                        <a href="#">Environnement</a>
+                        <a href="#">Petite enfance</a>
+                    </div>
+                </div>
+
+            </header>
+            <div class = "container">
+                <div class="content">
+                    <div class="info">
+                        <h2>Like Nature <br><span>Be Creative!</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm</p>
+                        <a href="pagesec.html" class="info-btn">Plus d'information</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+                <div class="media-icons">
+                    <a href="#"> <i class="fab fa-facebook-f"> </i> </a>
+                    <a href="#"> <i class="fab fa-twitter"> </i> </a>
+                    <a href="#"> <i class="fab fa-instagram"> </i> </a>
+                </div>
+
+            <script type="text/javascript">
+
+                /* script pour le menu hamburger */
+                const menuBtn = document.querySelector(".menu-btn");
+                const navbar = document.querySelector(".navbar");
+                menuBtn.addEventListener("click", () => {
+                        menuBtn.classList.toggle("active");
+                        navbar.classList.toggle("active");
+                    }
+                )
+            </script>
+        </section>
+
+
+</body>
+</html>
