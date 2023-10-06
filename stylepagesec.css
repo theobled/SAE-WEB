@@ -43,12 +43,12 @@ h2{
 
 
 #card-img-top{
-    border-radius:10%;
+    border-radius: 15%;
     padding: 5%;
 }
 
 .card{
-    border-radius: 200px;
+  
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/main.png);
     background-size: cover;
@@ -56,6 +56,7 @@ h2{
 }
 
 .card-body{
+    border-radius:15%;
     padding: 25px;
     margin-top: -15px;
 
@@ -70,6 +71,9 @@ h2{
 .btn-primary:hover{
     background-color: black;
 }
+
+
+
 
 
 
