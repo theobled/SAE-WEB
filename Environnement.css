@@ -95,7 +95,7 @@ section {
     z-index: 222;
     background: rgba(255 , 255 , 255 , 0.1);
     backdrop-filter: blur(20px);
-    padding: 40px;
+    padding: 35px;
     max-width: 400px;
     border: 1px solid rgba(255 , 255 , 255 , 0.1);
     border-radius: 10px;
@@ -140,8 +140,8 @@ section {
 /*****************SECTION 3*********************/
 
 
+
 .sec-3 .content .text-box{
-    text-align: justify;
     z-index: 222;
     background: rgba(255 , 255 , 255 , 0.1);
     backdrop-filter: blur(20px);
@@ -150,6 +150,18 @@ section {
     border: 1px solid rgba(255 , 255 , 255 , 0.1);
     border-radius: 10px;
     transform: translate(80px, 50px);
+}
+
+.sec-3 .text-box p{
+    text-align: justify;
+}
+
+.sec-3 .text-box .info-title{
+    text-align: left;
+}
+
+.sec-3 .section-title{
+    margin-left: 25%;
 }
 
 
@@ -173,7 +185,7 @@ section {
     }
 
     #content1{
-        margin-left: 25%;
+        margin-left: 15%;
     }
 
 
@@ -184,16 +196,26 @@ section {
 
     .content .text-box{
         width: 30%;
-        transform: translate(-250px, 150px);
+        transform: translate(-250px, 100px);
+    }
+
+    .info-title{
+        width: 100%;
     }
 
 
     /*****************SECTION 2*********************/
     .sec-2  .image{
-        width: 60%;
+        width: 50%;
     }
+
+   .sec-2 .section-title{
+        width: 100%;
+        margin-left: 95%;
+   }
     .info-title{
         font-size: 1.5em;
+        width: 100%;
         
     }
 
@@ -202,15 +224,17 @@ section {
         text-align: justify;
         font-size: 1em;
         width: 20%;
-        border: 5px solid red;
     }
 
+    /*****************SECTION 3*********************/
     .sec-3 .image{
         width: 60%;
         margin-right: 10%;
     }
 
-   
+    .sec-3 .section-title{
+        margin-left: 10%;
+    }
 
 
     
@@ -231,7 +255,7 @@ section {
         margin-left: 60%;
     }
 
-    sec-1 .content .image{
+    .sec-1 .content .image{
 
         margin-left: 105%;
         width: 350px;
