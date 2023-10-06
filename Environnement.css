@@ -154,7 +154,7 @@ section {
 
 
 
-@media screen and (max-width: 1040px) {
+@media (min-width : 775px) and (max-width: 1040px) {
     
 
     .main-title{
