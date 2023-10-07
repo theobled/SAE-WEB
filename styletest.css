@@ -84,7 +84,7 @@ section {
 }
 
 .content .info h2 span{
-    color: white;
+    color: #B6DEB0;
     font-size: 50px;
     font-weight: 600;
 }
@@ -93,6 +93,7 @@ section {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 40px;
+    color: #fff;
 }
 
 .content .info-btn{
