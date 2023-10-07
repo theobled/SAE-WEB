@@ -15,10 +15,10 @@
 
     <div class="navbar">
         <div class="navbar-items">
-            <a href="Acceuil.html">Accueil</a>
-            <a href="tourisme.html">Tourisme</a>
-            <a href="Envrionnement.html">Environnement</a>
-            <a href="test.html">Petite enfance</a>
+            <a href="#">Accueil</a>
+            <a href="#">Tourisme</a>
+            <a href="#">Environnement</a>
+            <a href="#">Petite enfance</a>
 
         </div>
 
@@ -28,13 +28,13 @@
 <div class="container">
 
     <div class="row">
-        <div class="col">
+        <div class="col col1">
             <h1>Actualités</h1>
             <p>Découvrez les actualités du Grand Guéret</p>
             <button type="button"> Explore</button>
         </div>
 
-        <div class="col">
+        <div class="col col2">
             <div class="card card1">
                 <h5> Centre aquatique </h5>
                 <p>Présentation et explication des différents scénarios. </p>
@@ -56,12 +56,12 @@
     </div>
 	
 	 <div class="row">
-        <div class="col">
+        <div class="col col3">
             <h1>Prochainement</h>
             <p>Découvrez les actualités du Grand Guéret</p>
             <button type="button"> Explore</button>
         </div>
-        <div class="col">
+        <div class="col col2">
             <div class="card card5">
                 <h5> Cinéma en plein air </h5>
                 <p>Présentation et explication des différents scénarios. </p>
@@ -90,8 +90,6 @@
     /* script pour le menu hamburger */
     const menuBtn = document.querySelector(".menu-btn");
     const navbar = document.querySelector(".navbar");
-    const header = document.querySelector("header");
-    
     menuBtn.addEventListener("click", () => {
         menuBtn.classList.toggle("active");
         navbar.classList.toggle("active");
@@ -107,19 +105,7 @@
 			sliderNav(i);
 		});
 	});
-     /* script pour le scroll de la navbar */
-
-   document.addEventListener("scroll",(e)=>{
-    let scroll=window.scrollY;
-    
-        if(scroll>20){
-            header.style.backgroundColor= "black";
-        }else
-            header.style.backgroundColor= "transparent"
-    });
 </script>
-
-</body>
 
 <footer>
     <div id="monfooter">
@@ -143,6 +129,6 @@
 			<a href="#"><i class="fab fa-pinterest"></i></a>
 		</div>
     </div>
-	
 </footer>
+</body>
 </html>
