@@ -74,6 +74,56 @@ h2{
     background-color: blue !important;
 }
 
+.owl-carousel .item {
+    transform: scale(0.8); /* Échelle des éléments en retrait */
+    transition: transform 0.5s ease-in-out;
+}
+
+.owl-carousel .center .item {
+    transform: scale(1); /* Échelle de l'élément du milieu */
+}
+
+.owl-carousel .center .next .item,
+.owl-carousel .center .prev .item {
+    transform: scale(0.8); /* Échelle des éléments à gauche et à droite du milieu */
+}
+
+/* CSS pour centrer les boutons .custom-prev et .custom-next au bas du carrousel */
+.owl-carousel {
+    position: relative;
+    margin-left: 4%;
+}
+
+.custom-navigation {
+    text-align: center;
+    position: absolute;
+    bottom: 20%; /* Ajustez cette valeur pour régler la distance depuis le bas */
+    left: 0;
+    right: 0;
+}
+
+.custom-prev,
+.custom-next {
+    background-color: #36678D;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px; /* Ajustez cette valeur pour régler l'espacement entre les boutons */
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+    background-color: blue;
+}
+
+.owl-nav{
+    text-align: center;
+    margin-right: 11%; 
+    margin-top: 3%;
+}
+
 
 
 #rond{
