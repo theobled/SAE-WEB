@@ -45,32 +45,35 @@ h2{
 #card-img-top{
     border-radius: 15%;
     padding: 5%;
+    width: 100%;
+    margin-top: 4%;
 }
 
-.card{
-  
+#card{
+    border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/main.png);
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/main.png);
     background-size: cover;
     background-position: center;
 }
 
-.card-body{
-    border-radius:15%;
+#card-body{
     padding: 25px;
     margin-top: -15px;
 
 }
 
+.btn{
+    width: 40%;
+    background-color: #36678D !important;
+}
 .btn-primary{
-    border-radius: 5Opx;
-    width: 120px;
-    background-color: blue;
+    background-color: #36678D !important;
+}
+.btn-primary:hover{
+    background-color: blue !important;
 }
 
-.btn-primary:hover{
-    background-color: black;
-}
 
 
 
