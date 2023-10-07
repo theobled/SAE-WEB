@@ -48,9 +48,12 @@ h2{
     padding: 5%;
     width: 100%;
     margin-top: 4%;
+    max-width: 100%;
+    height: auto;
 }
 
 #card{
+    width: 80%;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/main.png);
@@ -94,6 +97,7 @@ h2{
     position: relative;
     margin-left: 4%;
     margin-top: 2.5%;
+    
 }
 
 .custom-navigation {
