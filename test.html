@@ -44,11 +44,23 @@
                 /* script pour le menu hamburger */
                 const menuBtn = document.querySelector(".menu-btn");
                 const navbar = document.querySelector(".navbar");
+                const header = document.querySelector("header");
+                
                 menuBtn.addEventListener("click", () => {
                         menuBtn.classList.toggle("active");
                         navbar.classList.toggle("active");
                     }
                 )
+                 /* script pour le scroll de la navbar */
+
+                document.addEventListener("scroll",(e)=>{
+                    let scroll=window.scrollY;
+                    
+                        if(scroll>20){
+                            header.style.backgroundColor= "black";
+                        }else
+                            header.style.backgroundColor= "transparent"
+                    });
             </script>
         </section>
 
