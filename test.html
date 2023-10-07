@@ -8,19 +8,22 @@
     <link rel=" stylesheet" type=" text/CSS" href=ttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
+    <header class="sticky">
+        <a href="#" class="logo">logo</a>
+        <div class="menu-btn"></div>
+    
+        <div class="navbar">
+            <div class="navbar-items">
+                <a href="Acceuil.html">Accueil</a>
+                <a href="tourisme.html">Tourisme</a>
+                <a href="Envrionnement.html">Environnement</a>
+                <a href="test.html">Petite enfance</a>
+            </div>
+        </div>
+    </header>
         <section>
-            <header>
-                <a href="#" class="logo">logo</a>
-                <div class="navbar">
-                    <div class="navbar-items">
-                        <a href="Acceuil.html">Accueil</a>
-                        <a href="tourisme.html">Tourisme</a>
-                        <a href="Envrionnement.html">Environnement</a>
-                        <a href="test.html">Petite enfance</a>
-                    </div>
-                </div>
+            
 
-            </header>
             <div class = "container">
                 <div class="content">
                     <div class="info">
@@ -33,11 +36,30 @@
 
 
 
-                <div class="media-icons">
-                    <a href="#"> <i class="fab fa-facebook-f"> </i> </a>
-                    <a href="#"> <i class="fab fa-twitter"> </i> </a>
-                    <a href="#"> <i class="fab fa-instagram"> </i> </a>
+            <footer>
+                <div class="monfooter">
+                    <div class="Adresse">
+                        <h2> Adresse </h2>
+                        <p> 9, avenue de Charles de Gaulle </p>
+                        <p> BP 302 </p>
+                        <p>23006 Guéret Cedex</p>
+                        <p>direction.generale@agglo-grandgueret.fr</p>
+                        <p> 05.55.41.13.01</p>
+                    </div>
+                    <div class="Horaires">
+                        <h2> Horaires d'ouverture </h2>
+                        <p> Du lundi au jeudi de 09h à 12h et de 14h à 17h</p>
+                        <p>Le vendredi de 9h à 12h et de 14h à 16h30 </p>
+                    </div>
+                    <div class="media-icons">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.pinterest.fr"><i class="fab fa-pinterest"></i></a>
+                    </div>
                 </div>
+        
+            </footer>
 
             <script type="text/javascript">
 
@@ -45,12 +67,13 @@
                 const menuBtn = document.querySelector(".menu-btn");
                 const navbar = document.querySelector(".navbar");
                 const header = document.querySelector("header");
-                
+
                 menuBtn.addEventListener("click", () => {
-                        menuBtn.classList.toggle("active");
-                        navbar.classList.toggle("active");
-                    }
-                )
+                    menuBtn.classList.toggle("active");
+                    navbar.classList.toggle("active");
+                })
+
+                
                  /* script pour le scroll de la navbar */
 
                 document.addEventListener("scroll",(e)=>{
