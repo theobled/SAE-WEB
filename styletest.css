@@ -113,6 +113,63 @@ section {
     background: #0C4F60;
 }
 
+/*****************FOOTER***************************/
+
+footer{
+    background-color:black;
+}
+
+.monfooter{
+    display: flex; /* Utilisation de Flexbox pour aligner les divs horizontalement */
+    color :#fff;
+}
+.Adresse{
+    text-align : center;
+    color: #fff;
+    margin-top:3%;
+    margin-left:20%;
+    flex:1;
+    padding-bottom:4%;
+}
+.Adresse h2{
+    margin-bottom:4%;
+    color: #fff;
+}
+.Horaires{
+    margin-top:3%;
+    flex:1;
+    text-align : center;
+    margin-right:20%;
+    color: #fff;
+}
+.Horaires h2{
+    margin-bottom:4%;
+    color: #fff;
+
+}
+
+.media-icons{
+    position:absolute;
+    display:flex;
+    margin-left:43%;
+    margin-top:12%;
+    transition:0.5s ease;
+}
+
+.media-icons a{
+    margin-left:30px;
+    color:#fff;
+    font-size:1.6em;
+    transition:0.3s ease;
+}
+
+.media-icons a:not(:last-child){
+    margin-bottom:20px;
+}
+
+.media-icons a:hover{
+    transform : scale(1.3);
+}
 @media (max-width: 1040px) {
     header {
 
@@ -189,7 +246,7 @@ section {
     }
 
 }
-/*
+
 @media (max-width: 1024px){
 
     .content {
