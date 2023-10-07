@@ -25,6 +25,7 @@ h2{
 .sec-1{
     display: flex;
     margin: 0 auto;
+    margin-bottom: 10%;
 }
 
 .sec-2{
@@ -92,6 +93,7 @@ h2{
 .owl-carousel {
     position: relative;
     margin-left: 4%;
+    margin-top: 2.5%;
 }
 
 .custom-navigation {
