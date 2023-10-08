@@ -10,10 +10,32 @@ body{
 
 }
 
-h2{
-   text-align: center;
+@keyframes fall {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .falling-text {
+    text-align: center;
     margin-top: 10%;
-}
+    font-size: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .falling-text span {
+    display: inline-block;
+    opacity: 0;
+    animation: fall 0.5s linear forwards;
+    animation-delay: 0.1s; /* Ajoutez un léger délai pour chaque lettre */
+  }
+
 
 #fille{
     height: 50%;
@@ -135,7 +157,11 @@ h2{
     margin-right: 11%; 
     margin-top: 3%;
 }
-
+@media (max-width: 768px) {
+    .falling-text {
+        font-size: 24px; /* Réduisez la taille du texte sur les petits écrans */
+    }
+}
 
 
 #rond{
