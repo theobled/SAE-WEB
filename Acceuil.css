@@ -366,6 +366,9 @@ footer{
 	}
 }
 @media (max-width: 650px) {
+	.card{
+		width:175px;
+	}
 	.col1{
 		margin-left:0%;
 	}
