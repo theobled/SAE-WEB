@@ -370,10 +370,10 @@ footer{
 		width:175px;
 	}
 	.col1{
-		margin-left:0%;
+		margin-left:3%;
 	}
 	.col3{
-		margin-left:0%;
+		margin-left:10%;
 	}
 	.col2{
 		margin-left:-10%;
@@ -390,5 +390,8 @@ footer{
 	}
 	#Adresse{
 		margin-right:30px;
+	}
+	h1{
+		font-size:40px;
 	}
 }
