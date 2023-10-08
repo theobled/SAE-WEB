@@ -190,6 +190,7 @@ section {
    .sec-2 .section-title{
         width: 80%;
    }
+
     .info-title{
         font-size: 1.5em;
         width: 100%;
@@ -236,11 +237,12 @@ section {
 
 
     .section-title{
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
     
     .sec-1 .content{
-        width: 50%;
+        width: 60%;
+        margin-left: 10%;
     }
 
     .text-box .info-title{
@@ -254,70 +256,46 @@ section {
 
 
     /*****************SECTION 2*********************/
-    
+
+
+    .sec-2 .content{
+        width: 125%;
+    }
+
+    .sec-2 .section-title{
+        width: 80%;
+    }
+    .sec-2 .info-title{
+        font-size: 1.25em;
+    }
+
+
+    .sec-2 .info{
+        font-size: 0.75em;
+        margin-left: 5%;
+    }
+
 
     /*****************SECTION 3*********************/
 
+    .sec-3 .content{
+        width: 100%;
+        padding-right: 10%;
+    }
 
+
+
+    #text3{
+        width: 700px;
+        transform: translate(75px, 100px);
+
+    }
+
+
+    .sec-3 .image{
+        width: 50%;
+    }
     
 
 
-}
-/*****************FOOTER*********************/
-
-footer{
-    background-color:black;
-}
-
-.monfooter{
-    display: flex; /* Utilisation de Flexbox pour aligner les divs horizontalement */
-    margin-bottom:7px;
-    color :#fff;
-}
-.Adresse{
-    text-align : center;
-    color: #fff;
-    margin-top:3%;
-    margin-left:20%;
-    flex:1;
-    padding-bottom:4%;
-}
-.Adresse h2{
-    margin-bottom:4%;
-    color: #fff;
-}
-.Horaires{
-    margin-top:3%;
-    flex:1;
-    text-align : center;
-    margin-right:20%;
-    color: #fff;
-}
-.Horaires h2{
-    margin-bottom:4%;
-    color: #fff;
-
-}
-
-.media-icons{
-    position:absolute;
-    display:flex;
-    margin-left:43%;
-    margin-top:12%;
-    transition:0.5s ease;
-}
-
-.media-icons a{
-    margin-left:30px;
-    color:#fff;
-    font-size:1.6em;
-    transition:0.3s ease;
-}
-
-.media-icons a:not(:last-child){
-    margin-bottom:20px;
-}
-
-.media-icons a:hover{
-    transform : scale(1.3);
 }
