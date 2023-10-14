@@ -11,8 +11,6 @@ body{
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/montagnes.jpg);
     background-attachment: fixed;
     background-position:center;
-	padding-left:8%;
-	padding-right:8%;
 	box-sizing: border-box;
 }
 
@@ -31,6 +29,10 @@ section {
 
 
 /*****************SECTION 1*********************/
+.sec-1{
+    padding-left:10%;
+	padding-right:10%;
+}
 .container{
     position: relative;
     display: flex;
@@ -93,6 +95,10 @@ section {
     margin-bottom: 5%;
 }
 /*****************SECTION 2*********************/
+.sec-2{
+    padding-left:20%;
+	padding-right:20%;
+}
 
 .sec-2 .content{
 
@@ -145,8 +151,15 @@ section {
     margin-left: 20%;
 }
 
+/*****************FOOTER*********************/
+
+.monfooter{
+    background-color: black;
+    width: 100%;
+}
 
 
+/*****************Tablette*********************/
 @media (min-width : 775px) and (max-width: 1040px) {
     
 
@@ -181,7 +194,10 @@ section {
 
     /*****************SECTION 2*********************/
    
-
+    .sec-2{
+        padding-left:10%;
+        padding-right:10%;
+    }
 
     .sec-2 .content{
         width: 120%;
@@ -205,6 +221,11 @@ section {
     }
 
     /*****************SECTION 3*********************/
+    .sec-3{
+        padding-left:10%;
+        padding-right:10%;
+    }
+    
    .sec-3 .content{
     padding-right: 10%;
     width: 150%;
@@ -227,7 +248,7 @@ section {
     
 }
 
-
+/*****************Telephone*********************/
 
 @media screen and (max-width: 775px){
 
