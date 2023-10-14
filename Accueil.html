@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Accueil</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Accueil.css">
+    <link href="https://fonts/.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+<header>
+    <a href="#" class="logo">logo</a>
+    <div class="menu-btn"></div>
+
+    <div class="navbar">
+        <div class="navbar-items">
+            <a href="Accueil.html">Accueil</a>
+            <a href="Tourisme.html">Tourisme</a>
+            <a href="Envrionnement.html">Environnement</a>
+            <a href="Petite-enfance.html">Petite enfance</a>
+
+        </div>
+
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col col1">
+            <h1>Actualités</h1>
+            <p>Découvrez les actualités du Grand Guéret</p>
+            <button type="button"> En savoir plus</button>
+        </div>
+
+        <div class="col col2">
+            <div class="card card1">
+                <h5> Centre aquatique </h5>
+                <p>Présentation et explication des différents scénarios. </p>
+            </div>
+            <div class="card card2">
+                <h5> Eau pluviale</h5>
+                <p>Récupérateurs d'eau pluviale pour les abonnés. </p>
+            </div>
+            <div class="card card3">
+                <h5> Loups de Chabrières </h5>
+                <p>Réouverture du Parc Animalier le 4 février 2023. </p>
+            </div>
+            <div class="card card4">
+                <h5> Anzême et Jouillat </h5>
+                <p>Baignade et activités nautiques interdites. </p>
+            </div>
+        </div>
+
+    </div>
+	
+	 <div class="row">
+        <div class="col col3">
+            <h1>Prochainement</h1>
+            <p>Découvrez les évenements à venir du Grand Guéret</p>
+            <button type="button"> En savoir plus</button>
+        </div>
+        <div class="col col2 col8">
+            <div class="card card5">
+                <h5> Cinéma en plein air </h5>
+                <p>Présentation et explication des différents scénarios. </p>
+            </div>
+            <div class="card card6">
+                <h5> Eau pluviale</h5>
+                <p>Récupérateurs d'eau pluviale pour les abonnés. </p>
+            </div>
+            <div class="card card7">
+                <h5> Loups de Chabrières </h5>
+                <p>Réouverture du Parc Animalier le 4 février 2023. </p>
+            </div>
+            <div class="card card8">
+                <h5> Anzême et Jouillat </h5>
+                <p>Baignade et activités nautiques interdites. </p>
+            </div>
+        </div>
+
+    </div>
+	
+		
+
+</div>
+<script type="text/javascript">
+
+    /* script pour le menu hamburger */
+    const menuBtn = document.querySelector(".menu-btn");
+    const navbar = document.querySelector(".navbar");
+    menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        navbar.classList.toggle("active");
+    });
+	
+	const btns = document.querySelectorAll(".nav-btn");
+	var sliderNav = function(manual){
+		btns[manual].classList.add("active");
+	}
+	
+	btns.forEach((btn, i) => {
+		btn.addEventListener("click", () =>{
+			sliderNav(i);
+		});
+	});
+</script>
+
+<footer>
+    <div id="monfooter">
+        <div id="Adresse">
+            <h2> Adresse </h2>
+            <p> 9, avenue de Charles de Gaulle </p>
+            <p> BP 302 </p>
+            <p>23006 Guéret Cedex</p>
+            <p>direction.generale@agglo-grandgueret.fr</p>
+            <p> 05.55.41.13.01</p>
+        </div>
+        <div id="Horaires">
+            <h2> Horaires d'ouverture </h2>
+            <p> Du lundi au jeudi de 09h à 12h et de 14h à 17h</p>
+            <p>Le vendredi de 9h à 12h et de 14h à 16h30 </p>
+        </div>
+		<div class="media-icons">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-pinterest"></i></a>
+		</div>
+    </div>
+</footer>
+</body>
+</html>
