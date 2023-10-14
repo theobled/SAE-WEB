@@ -84,32 +84,20 @@
                     </div>
             </div>
         </section>
-
-        <footer>
-            <div class="monfooter">
-                <div class="Adresse">
-                    <h2> Adresse </h2>
-                    <p> 9, avenue de Charles de Gaulle </p>
-                    <p> BP 302 </p>
-                    <p>23006 Guéret Cedex</p>
-                    <p>direction.generale@agglo-grandgueret.fr</p>
-                    <p> 05.55.41.13.01</p>
-                </div>
-                <div class="Horaires">
-                    <h2> Horaires d'ouverture </h2>
-                    <p> Du lundi au jeudi de 09h à 12h et de 14h à 17h</p>
-                    <p>Le vendredi de 9h à 12h et de 14h à 16h30 </p>
-                </div>
-                <div class="media-icons">
-                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.pinterest.fr"><i class="fab fa-pinterest"></i></a>
-                </div>
-            </div>
         
-        </footer>
+        <section class="monfooter">
 
+            <div class = informations>
+                <h3>Informations</h3>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Mentions Légales</a></li>
+                    <li><a href="#">Politique de Confidentialité</a></li>
+                </ul>
+            </div>
+
+        </section>
+       
         <script type="text/javascript">
             /* script pour le menu hamburger */
             const menuBtn = document.querySelector(".menu-btn");
@@ -123,7 +111,9 @@
 
             document.addEventListener("scroll", (e) => {
                 let scroll = window.scrollY;
-
+            
+                
+        
                 if (scroll > 20) {
                     header.style.backgroundColor = "black";
                 } else
