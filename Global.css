@@ -252,14 +252,6 @@ footer .informations li a{
 /*****************Tablette*********************/
 @media (min-width : 775px) and (max-width: 1040px) {
     
-    footer{
-        width: 100%;
-    }
-    
-    footer div{
-        border: 5px solid red;
-    }
-
     footer .haute{
         margin-left: 0%;
     }
@@ -287,15 +279,13 @@ footer .informations li a{
     
     footer{
        flex-direction: column;
-       border: 5px solid white;
-       width: 100%;
+       
     }
 
 
     footer .haute{
         margin-left: 0%;
         width: 100%;
-        border: 5px solid red;
     }
 
     footer .haute .informations li{
@@ -303,9 +293,7 @@ footer .informations li a{
     }
 
     footer .basse{
-        width: 100%;
-        border: 5px solid green;
-        
+        width: 100%;        
     }
 
     footer .basse .autres li{
