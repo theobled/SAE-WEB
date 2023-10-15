@@ -9,60 +9,64 @@ body{
 
 @keyframes fall {
     0% {
-      transform: translateY(-100%);
-      opacity: 0;
+        transform: translateY(-100%);
+        opacity: 0;
     }
+
     100% {
-      transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
-  
-  .falling-text {
+}
+
+.falling-text {
     text-align: center;
     margin-top: 10%;
     font-size: 36px;
     white-space: nowrap;
     overflow: hidden;
-  }
-  
-  .falling-text span {
+}
+
+.falling-text span {
     display: inline-block;
     opacity: 0;
     animation: fall 0.5s linear forwards;
-    animation-delay: 0.1s; /* Ajoutez un léger délai pour chaque lettre */
-  }
+    animation-delay: 0.1s;
+    /* Ajoutez un léger délai pour chaque lettre */
+}
 
 
-#fille{
+#fille {
     height: 50%;
     width: 50%;
     margin-top: 2%;
     margin-left: 5%;
 }
 
-.sec-1{
+.sec-1 {
     display: flex;
     margin: 0 auto;
     margin-bottom: 10%;
+    
 }
 
-.sec-2{
+.sec-2 {
     text-align: justify;
     z-index: 222;
-    background: rgba(255 , 255 , 255 , 0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
     padding: 2%;
-    border: 1px solid rgba(255 , 255 , 255 , 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     margin-left: 10%;
     margin-right: 50px;
     margin-top: 2%;
+    
 }
 
 
 
-#card-img-top{
+#card-img-top {
     border-radius: 15%;
     padding: 5%;
     width: 100%;
@@ -71,49 +75,54 @@ body{
     height: auto;
 }
 
-#card{
+#card {
     width: 80%;
     border-radius: 8%;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/main.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/main.png);
     background-size: cover;
     background-position: center;
 }
 
-#card-body{
+#card-body {
     padding: 25px;
     margin-top: -15px;
 
 }
 
-.card-title{
+.card-title {
     text-align: center;
-    
+
 }
 
-.btn{
+.btn {
     width: 40%;
     background-color: #36678D !important;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #36678D !important;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: blue !important;
 }
 
 .owl-carousel .item {
-    transform: scale(0.8); /* Échelle des éléments en retrait */
+    transform: scale(0.8);
+    /* Échelle des éléments en retrait */
     transition: transform 0.5s ease-in-out;
 }
 
 .owl-carousel .center .item {
-    transform: scale(1); /* Échelle de l'élément du milieu */
+    transform: scale(1);
+    /* Échelle de l'élément du milieu */
 }
 
 .owl-carousel .center .next .item,
 .owl-carousel .center .prev .item {
-    transform: scale(0.8); /* Échelle des éléments à gauche et à droite du milieu */
+    transform: scale(0.8);
+    /* Échelle des éléments à gauche et à droite du milieu */
 }
 
 /* CSS pour centrer les boutons .custom-prev et .custom-next au bas du carrousel */
@@ -121,14 +130,15 @@ body{
     position: relative;
     margin-left: 4%;
     margin-top: 2.5%;
-    
+
 }
 
 
 .custom-navigation {
     text-align: center;
     position: absolute;
-    bottom: 20%; /* Ajustez cette valeur pour régler la distance depuis le bas */
+    bottom: 20%;
+    /* Ajustez cette valeur pour régler la distance depuis le bas */
     left: 0;
     right: 0;
 }
@@ -141,7 +151,8 @@ body{
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    margin: 0 10px; /* Ajustez cette valeur pour régler l'espacement entre les boutons */
+    margin: 0 10px;
+    /* Ajustez cette valeur pour régler l'espacement entre les boutons */
 }
 
 .custom-prev:hover,
@@ -149,21 +160,61 @@ body{
     background-color: blue;
 }
 
-.owl-nav{
+.owl-nav {
     text-align: center;
-    margin-right: 11%; 
+    margin-right: 11%;
     margin-top: 3%;
 }
+
 @media (max-width: 768px) {
     .falling-text {
-        font-size: 24px; /* Réduisez la taille du texte sur les petits écrans */
+        font-size: 24px;
+        /* Réduisez la taille du texte sur les petits écrans */
     }
 }
 
 
-#rond{
-    margin-top: 30%;
-    margin-left: 60%;
+
+.titrelesavsaistu {
+    margin-top: 6%;
+    margin-left: 19%;
 
 }
+
+.partenaire {
+    display: flex;
+    margin-top: 3%;
+    padding-left: 3%;
+    
+
+}
+
+.lesavaistu {
+    width: 100%;
+    background-image: url(images/lesavaistu.png);
+    background-repeat: no-repeat;
+}
+
+
+.paragraphe {
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 30%;
+
+}
+
+.image {
+    margin-right: 8%;
+    margin-top: 1%;
+    width: 35%;
+}
+
+#rond {
+    width: 120%;
+}
+
+
+
+
+
 
