@@ -125,15 +125,26 @@
     /* script pour le menu hamburger */
     const menuBtn = document.querySelector(".menu-btn");
     const navbar = document.querySelector(".navbar");
+    const header = document.querySelector("header");
+    const btns = document.querySelectorAll(".nav-btn");
+
     menuBtn.addEventListener("click", () => {
         menuBtn.classList.toggle("active");
         navbar.classList.toggle("active");
     });
 	
-	const btns = document.querySelectorAll(".nav-btn");
+	
 	var sliderNav = function(manual){
 		btns[manual].classList.add("active");
 	}
+    document.addEventListener("scroll",(e)=>{
+        let scroll=window.scrollY;
+            
+            if(scroll>20){
+                header.style.backgroundColor= "black";
+            }else
+                header.style.backgroundColor= "transparent"
+        });
 	
 	btns.forEach((btn, i) => {
 		btn.addEventListener("click", () =>{
