@@ -4,6 +4,8 @@
     <title>Formulaire de Contact</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="Global.css">
+    <link rel="stylesheet" type="text/css" href="formulaire.css">
+
 </head>
 <body>
     <header>
@@ -18,20 +20,44 @@
         </div>
     </header>
 
-    <h1>CONTACT</h1>
+    
+    <div class="formulaire">
+        <!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Lien vers la feuille de style CSS externe -->
+</head>
+<body>
 
-    <form>
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" required><br>
+    <h1>Contactez-nous</h1>
+    <div class="formulaire">
+        <form>
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
 
-        <label for="mail">Mail :</label>
-        <input type="mail" id="mail" name="mail" required><br>
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
 
-        <label for="message">Message :</label>
-        <textarea id="message" name="message" rows="4" required></textarea><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
 
-        <input type="submit" value="Envoyer">
-    </form>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+
+
+</body>
+</html>
+
+    
 
 
     <footer>
@@ -39,7 +65,7 @@
             <div class = informations>
                 <h2>Informations</h2>
                 <ul>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="formulaire.html">Contact</a></li>
                     <li><a href="#">Mentions Légales</a></li>
                     <li><a href="#">Politique de Confidentialité</a></li>
                 </ul>
@@ -69,5 +95,3 @@
         </div>
     </footer> 
 
-</body>
-</html>
