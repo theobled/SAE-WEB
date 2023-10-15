@@ -216,41 +216,6 @@ section {
     border-radius: 10px;
     transform: translate(-80px, 50px);
 }
-/*****************FOOTER***************************/
-
-footer{
-    background-color:black;
-}
-
-.monfooter{
-    display: flex; /* Utilisation de Flexbox pour aligner les divs horizontalement */
-    color :#fff;
-}
-.Adresse{
-    text-align : center;
-    color: #fff;
-    margin-top:3%;
-    margin-left:20%;
-    flex:1;
-    padding-bottom:4%;
-}
-.Adresse h2{
-    margin-bottom:4%;
-    color: #fff;
-}
-.Horaires{
-    margin-top:3%;
-    flex:1;
-    text-align : center;
-    margin-right:20%;
-    color: #fff;
-}
-.Horaires h2{
-    margin-bottom:4%;
-    color: #fff;
-  
-
-}
 
 
 @media (max-width: 1040px) {
