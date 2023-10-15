@@ -7,11 +7,9 @@
 
 body{
 	width:100%;
-	height:100vh;
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/montagnes.jpg);
     background-attachment: fixed;
     background-position:center;
-	box-sizing: border-box;
 }
 
 
@@ -151,114 +149,6 @@ section {
     margin-left: 20%;
 }
 
-/*****************FOOTER*********************/
-
-footer {
-    background-color: black;
-    display: flex ;
-    flex-direction: row;
-    width: 100%;
-    padding-top: 2.5%;
-    color: #fff;
-}
-
-footer .haute{
-    display: flex;
-    width: 35%;
-    margin-left: 25%;
-}
-
-footer .basse{
-    display: flex;
-    width: 35%;
-}
-
-
-
-footer h2{
-    margin-bottom: 5%;
-    color: white;
-}
-
-
-    /**informations**/
-footer .informations{
-    width: 50%;;
-
-}
-
-footer .informations li {
-    color: white;
-    margin-bottom: 10%;
-    margin-left: 2.5%;
-    list-style-type: ">"
-}
-
-footer .informations li a{
-    color: white;  
-    margin-left: 5%;
-    text-decoration: none;
-     
-}
-
-     /**Adresse**/
-
-     footer .adresse  {
-        width: 50%;
-    }
-
-
-    /**Autres**/
-
-    footer .autres{
-        width: 50%;
-    }
-
-    footer .autres li {
-        margin-bottom: 10%;
-        list-style-type: none
-    }
-
-    footer  .autres li a{
-        color: white; 
-        text-decoration: none;
-    }
-
-    footer  .autres li svg{
-
-        margin-right: 5%;
-        
-    }
-
-
-    /**Icones**/
-
-    footer .icones{
-        position: relative;
-        display:flex;
-        flex-direction: column;
-        margin-top: 2%;
-        margin-left: 5%;
-        transition:0.5s ease;
-    }
-
-
-    
-   footer .icones a{
-        margin-left:30px;
-        color:#fff;
-        font-size:1.6em;
-        transition:0.3s ease;
-    }
-    
-
-    
-    footer .icones a:hover{
-        transform : scale(1.3);
-    }
-
-
-
 /*****************Tablette*********************/
 @media (min-width : 775px) and (max-width: 1040px) {
     
@@ -342,25 +232,7 @@ footer .informations li a{
         width: 100%;
         transform: translate(125px,125px);
         margin-bottom: 10%;
-    }
-
-    /*****************Footer*********************/
-
-
-    footer .basse{
-        margin-left: 5%;
-
-    }
-
-    footer .basse .icones{
-        margin-left: 15%;
-    }
-
-    footer .haute .adresse{
-        margin-left: 15%;
-    }
-
-   
+    }   
 }
 
 /*****************Telephone*********************/
@@ -439,43 +311,6 @@ footer .informations li a{
         flex-direction: column;
     }
 
-      /*****************Footer*********************/
-    
-    footer{
-       flex-direction: column;
-       border: 5px solid white;
-       width: 100%;
-    }
 
-
-    footer .haute{
-        margin-left: 0%;
-        width: 100%;
-        border: 5px solid red;
-        
-       
-    }
-
-    footer .haute .adresse{
-    }
-
-    footer .basse{
-        width: 100%;
-        border: 5px solid green;
-        
-    }
-
-
-    footer .basse .autres li{
-        font-size: 0.75em;
-
-    }
-
-    footer .basse .icones{
-        padding-right: 10%;
-        font-size: 0.75em;
-        flex-direction: row;
-        align-items: center;
-    }
 
 }
