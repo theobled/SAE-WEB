@@ -15,12 +15,22 @@ body{
     display:flex;
     height:88%;
     align-items: center;
-    padding-top: 15%;
-}
-.col{
-    flex-basis:50%;
+	padding-top: 10%;
 }
 
+#row2{
+	margin-bottom: 10%;
+}
+.col_col1{
+	width: 50%;
+	padding-left: 15%;
+}
+
+.col_col2{
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+}
 h1{
     color:#fff;
     font-size:65px;
@@ -31,6 +41,7 @@ p{
     font-size:11px;
     line-height:15px;
 }
+
 button{
     width:180px;
     color:#000;
@@ -43,9 +54,9 @@ button{
     margin-top:30px
 }
 
-.card{
-    width:200px;
-    height:230px;
+.container .card{
+    width: 30%;
+	height: 230px;
     display: inline-block;
     border-radius:10px;
     box-sizing: border-box;
@@ -56,13 +67,7 @@ button{
     background-size:cover;
     transition: transform 0.5s;
 }
-.col8{
-	margin-bottom:150px;
-}
-.col2{
-	margin-left:50px;
 
-}
 
 .card1{
     background-image:url(images/aqua.jpg);
@@ -94,6 +99,7 @@ button{
 .card:hover{
     transform:translateY(-15px);
 }
+
 h5{
     color:#fff;
     text-shadow: 0 0 5px #999;
@@ -104,87 +110,82 @@ h5{
 
 @media (max-width: 1280px) {
 
+	.row{
+		justify-content: center; /* Centre horizontalement */
+	}
 
-	.col1{		
+
+	.col_col1{		
 		display: flex;
 		position:relative;
-		margin-left:25%;
-		margin-bottom:650px;
-		height:35%;
-		justify-content: center; /* Centre horizontalement */
-		align-items: center; /* Centre verticalement */
-		
+		width: 100%;
+		margin-bottom: 70%;
+		justify-content: center; /* Centre horizontalement */	
+		align-items: baseline;
 	}
-	.col3{
-		margin-top:10%;
-		position:relative;
-		margin-left:25%;
-		margin-bottom:720px;
-		align-items:center;
-		text-align: center; /* Pour aligner horizontalement */
-		height:35%;
-		display: flex;
-		justify-content: center; /* Centre horizontalement */
-		align-items: center; /* Centre verticalement */
-		min-height: 100vh; /* Hauteur minimale pour occuper toute la hauteur de la fenêtre */
+
+	.col_col1 p{
+		padding: 0 2.5%;
 	}
-	.col2{
+	.col_col2{
 		position:absolute;
-		padding: 15px 25px;
-		margin:12px 17px;
 		width:60%;
-		margin-left:18%;
-		margin-top:150px;
+		margin-left: 15%;
+	}
 		
-	}
-	
-	footer{
-		margin-top:800px;
-		background-color:black;
-	}
-	.media-icons{
-		margin-top:175px;		
-	}
-	
-	
 
 }
-@media (max-width: 900px) {
-	.col1{
-		margin-left:10%;
-		margin-top:160px;
-	}
-	.col2{
-		margin-left:8%; 
-		margin-top:300px;
-		width:85%;
-	
-	}
-	.col3{
-		margin-top:200px;
-		margin-left:15%;
 
+@media (max-width: 900px) {
+
+	.row{
+		justify-content: center; /* Centre horizontalement */
 	}
+
+	.row h1{
+		font-size: 3em;
+	}
+
+	#row2{
+		margin-bottom: 25%;
+		border: 5px solid red;
+	}
+
+	.col_col1{
+		margin-top: 10%;
+		margin-right: 10%;
+		align-items: center;
+		
+	}
+	.col_col2{
+		margin-top: 40%;
+		margin-left: 25%;
+		width:80%;
 	
-	.media-icons{
-		margin-left:35%;
-	}
-	h1{
-		color:#fff; 
-		font-size:60px; 
 	}
 }
 @media (max-width: 650px) {
-	.col1{
-		margin-left:0%;
+
+	.row h1 {
+		font-size: 2em;
 	}
-	.col3{
-		margin-left:0%;
+
+	.row .col_col1 p{
+		font-size: 0.65em;
 	}
-	.col2{
-		margin-left:-10%;
-		margin-top:300px;
-		width:110%;
+
+	#row2{
+		margin-top: 35%;
+		margin-bottom: 65%;
+	}
+
+	#title2{
+		margin-bottom: 100%;
+	}
+
+	.col_col2{
+		margin-top: 65%;
+		width: 100%;
 		
 	}
 }
