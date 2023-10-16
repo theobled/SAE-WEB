@@ -8,12 +8,13 @@ body{
 }
 
 .formulaire{
-    margin-top: 10%;
-    margin-bottom: 30%;
+    margin-top: 3%;
+    margin-bottom: 20%;
 }
 
 
 h1 {
+    margin-top: 12%;
     text-align: center;
    color: #fff ;
 }
@@ -56,9 +57,16 @@ label[for="email"] {
     color: #fff; 
 }
 
+label[for="sujet"] {
+    color: #fff;
+    margin-top: 5%; 
+}
+
 input[type="text"],
 
 input[type="email"],
+
+input[type="sujet"],
 
 textarea {
     width: 100%;
