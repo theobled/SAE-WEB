@@ -214,6 +214,7 @@ h4{
 .sec-2 .content{
     
     width: 150%;
+    height: 100%;
 
 }
 
@@ -226,6 +227,7 @@ h4{
 .sec-2 .image
 {
     width: 100%;
+   
 }
 .info-title{
     font-size: 1.8em;
