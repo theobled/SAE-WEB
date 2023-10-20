@@ -74,11 +74,9 @@ body{
     width: 40%;
     border: none;
     justify-content: center;
+    text-decoration: none;
 }
 
-#flyer a button{
-
-}
 #télécharger:hover{
     background-color: blue !important;
 }
