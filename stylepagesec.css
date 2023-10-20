@@ -69,10 +69,15 @@ body{
     justify-content: center;
     margin-bottom: 10%;
 }
-#télécharger{
-    width: 15%;
+#flyer a{
+    display: flex;
+    width: 40%;
     border: none;
-    
+    justify-content: center;
+}
+
+#flyer a button{
+
 }
 #télécharger:hover{
     background-color: blue !important;
