@@ -186,6 +186,8 @@ body{
 
 /************************************ FIN PARTIE 2 ***************************************/
 
+
+
 /************************************ PARTIE  3 ***************************************/
 
 
@@ -213,7 +215,6 @@ body{
     margin-top: 10%;
     margin-left: 35%;
     width: 30%;
-
 }
 
 .image {
@@ -280,6 +281,28 @@ body{
     }
     /* FIN PARTIE 3 */
    
+}
+
+
+/* Styles pour les écrans de largeur maximale de 1200px */
+@media (max-width: 1200px) {
+    .lesavaistu{
+        z-index: 222;
+        position: relative;
+        text-align: justify;
+    }
+    .paragraphe{
+        margin-left: 50%;
+       
+        
+    }
+    .image{
+        width: 20%;
+        display: flex;
+        align-items: center;
+    }
+        
+
 }
 
 
