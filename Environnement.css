@@ -37,7 +37,10 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
 
+h4{
+    text-align: start;
 }
 
 .main-title{
@@ -310,7 +313,4 @@ section {
     footer {
         flex-direction: column;
     }
-
-
-
 }
