@@ -230,7 +230,7 @@ body{
 
 
 
-/* Styles pour les écrans de largeur maximale de 768px */
+/*Styles pour les écrans de largeur maximale de 768px */
 @media (max-width: 768px) { 
 
     /* PARTIE 1 */
@@ -276,7 +276,7 @@ body{
     .image{
         display: flex;
         align-items: center;
-        margin-left: 10%;
+        margin-left: 20%;
         z-index: 222;     
     }
     /* FIN PARTIE 3 */
