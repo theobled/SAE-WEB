@@ -6,6 +6,9 @@ body{
     background-attachment: fixed;
 
 }
+h2{
+    color:#fff;
+}
 
 @keyframes fall {
     0% {
@@ -25,6 +28,7 @@ body{
     font-size: 36px;
     white-space: nowrap;
     overflow: hidden;
+    color: #fff;
 }
 
 .falling-text span {
