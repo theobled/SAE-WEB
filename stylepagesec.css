@@ -261,9 +261,11 @@ body{
     }
     .lesavaistu{
         background-image: none;
-        text-align: justify;
     }
     .paragraphe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 16px;
         width: 70%;
         background: rgba(255, 255, 255, 0.1);
@@ -273,10 +275,11 @@ body{
         border-radius: 10px;
         z-index: 111;
     }
+
     .image{
         display: flex;
         align-items: center;
-        margin-left: 10%;
+        margin-left: 20%;
         z-index: 222;     
     }
     /* FIN PARTIE 3 */
