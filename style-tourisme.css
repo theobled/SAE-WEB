@@ -253,14 +253,11 @@ h4{
     .section-title{
         font-size: 2em;
     }
-    
 
     .sec-1 .content{
         margin-left: 20%;
         width: 125%;
     }
-
-    
     .sec-1 .image{
         width: 100%;
     }
@@ -329,18 +326,15 @@ h4{
         padding-left:12.5%;
         padding-right:12.5%;
     }
-
     .sec-2 .content{
         width: 125%;
     }
-
     .sec-2 .section-title{
         width: 80%;
     }
     .sec-2 .info-title{
         font-size: 1.25em;
     }
-
 
     .sec-2 .info{
         font-size: 0.75em;
