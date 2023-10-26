@@ -149,6 +149,10 @@ footer .contenu{
     color: #fff;
 }
 
+footer p{
+    font-size: 0.85em;
+}
+
 footer .droit{
     background-color: black;
     color:#fff;
