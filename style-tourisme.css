@@ -262,7 +262,9 @@ h4{
         width: 100%;
     }
 
+    
     .sec-1 .text-box{
+        
         transform: translate(-100px, 175px);
     }
 
@@ -310,9 +312,9 @@ h4{
         font-size: 1.25em;
     }
     
-    .sec-1 .content{
+    .sec-1 .text-box{
         
-        margin-left: 10%;
+        transform: translate(-10px,0px);
     }
 
     .text-box .info-title{
@@ -323,7 +325,7 @@ h4{
     }
     /*****************SECTION 2*********************/
     .sec-2{
-        padding-left:12.5%;
+        padding-left:15%;
         padding-right:12.5%;
     }
     .sec-2 .content{
