@@ -139,7 +139,7 @@ header .navbar .navbar-items a:hover:before {
 
 /*****************FOOTER*********************/
 
-footer {
+footer .contenu{
     background-color: black;
     display: flex ;
     flex-direction: row;
@@ -148,6 +148,11 @@ footer {
     color: #fff;
 }
 
+footer .droit{
+    background-color: black;
+    color:#fff;
+    padding-left: 15%;
+}
 footer #logo{
 
     display: flex;
@@ -283,7 +288,7 @@ footer .informations li a{
 @media screen and (max-width: 775px){
 
     
-    footer{
+    footer .contenu{
        flex-direction: column;
        
     }
